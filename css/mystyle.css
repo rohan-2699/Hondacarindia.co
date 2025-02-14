@@ -694,6 +694,7 @@ p{font-family: "mono"!important;}
 @media screen and (max-width:991px) and (min-width:768px)
 {
     .navbar-collapse {background: white; box-shadow: 0 0.4rem 0.6rem 0 rgba(196, 196, 196, 0.5);}
+    .navbar-toggler:focus{ box-shadow: none;}
     .banner_title{font-size: 25px;}
     .banner_title-1{font-size: 25px;}
     .banner_tag{font-size: 20px; line-height: 2.5rem;}
@@ -766,6 +767,7 @@ p{font-family: "mono"!important;}
 {
     .icon{z-index: 99;}
     .navbar-collapse {background: white; box-shadow: 0 0.4rem 0.6rem 0 rgba(196, 196, 196, 0.5);}
+    .navbar-toggler:focus{ box-shadow: none;}
     .banner_title{padding: 0 100px; font-size: 20px; margin-top: 3.5rem;}
     .banner_title-1{padding: 0 100px; font-size: 20px; margin-top: 3.5rem;}
     .banner_tag{padding: 0 100px; font-size: 15px; line-height: 2rem; margin-top: 0rem;}
@@ -825,7 +827,8 @@ p{font-family: "mono"!important;}
     .z-10{height: 55px;}
     .icon{z-index: 99;}
     .bg-black{padding: 2rem 0 2rem 0;}
-    .navbar-collapse {background: white; box-shadow: 0 0.4rem 0.6rem 0 rgba(196, 196, 196, 0.5);}
+    .navbar-collapse {background: white; box-shadow: 0 0.4rem 0.6rem 0 rgba(196, 196, 196, 0.5);} 
+    .navbar-toggler:focus{ box-shadow: none;}
     .nav-link {font-size: 13px;}
     .icon{top: 89%; right: 21px; height: 42px; width: 42px;}
     .add{top: 89%; right: 30px; font-size: 29px;}
